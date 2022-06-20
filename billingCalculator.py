@@ -43,9 +43,13 @@ def createDictionaryList(slabs):
 
 
 def main():
+    #Read values from input file
     totalUnits,slabsDictionaryList = inputFileReader()
+    #Copy value of totalUnits
     totalUnitsCopy=totalUnits
+    #Calculate bill amount
     billAmount = billCalculator(slabsDictionaryList,totalUnits)
+    #Print bill amount
     print("Bill is {} for {} units".format(billAmount,totalUnitsCopy))
 
 if __name__ == "__main__":
