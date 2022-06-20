@@ -17,10 +17,14 @@ Sample bill calculation formula for an input of 250 units
 
 ## How to Run
 
-Enter values in billingInput with format: lowest unit value, highest unit value, slab cost per unit
-For highest slab, mention -1 as highest unit value
-
-Use last line to input total number of units
+Enter values in billingInput with format: lowest unit value, highest unit value, slab cost per unit  
+For highest slab, mention -1 as highest unit value  
+  
+Use last line to input total number of units  
+  
+  
+Ensure that billingInput.txt is in the same folder as billingCalculator.py  
+Use python3 to run billingCalculator.py  
 
 ```
 Example 1: 
